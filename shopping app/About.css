@@ -1,0 +1,16 @@
+.inner-about {
+    text-align: center;
+}
+.fa-bars,.fa-solid{
+    font-size:20px;
+    display:none;
+}
+.fa-bars:before, .fa-navicon:before{
+    display: none;
+}
+
+@media(max-width:500px){
+    .fa-bars:before, .fa-navicon:before{
+        display: flex;
+    }
+}
